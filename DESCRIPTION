@@ -1,0 +1,17 @@
+Package: SoundClassifierR
+Type: Package
+Title: Simple Sound Classification using PCA and kNN
+Version: 0.1.0
+Author: Ravi Jani
+Maintainer: Ravi Jani <rj270907@gmail.com>
+Description: SoundClassifierR provides a simple pipeline for classifying audio signals 
+  into categories such as human, animal, bird, and machine. It extracts basic 
+  features from .wav files, trains a classification model, and predicts the 
+  class of new audio inputs. The package is designed for educational purposes 
+  and demonstrates how signal processing and machine learning can be combined.
+License: MIT
+Encoding: UTF-8
+Imports: tuneR, seewave, class
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-04-03 11:11:58 UTC; ravijani
